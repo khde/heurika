@@ -17,8 +17,14 @@ qt_standard_project_setup()
 
 qt_add_executable(heurika
     src/main.cpp
-    src/gui/mainmenubar.cpp
-    src/gui/mainmenubar.h
+    src/gui/appmenubar.cpp
+    src/gui/appmenubar.h
+    src/gui/navbar.cpp
+    src/gui/navbar.h
+    src/gui/placesview.cpp
+    src/gui/placesview.h
+    src/gui/fileview.cpp
+    src/gui/fileview.h
     src/gui/mainwindow.cpp
     src/gui/mainwindow.h
 )
