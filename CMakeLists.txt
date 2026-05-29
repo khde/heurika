@@ -17,8 +17,10 @@ qt_standard_project_setup()
 
 qt_add_executable(heurika
     src/main.cpp
-    src/mainwindow.cpp
-    src/mainwindow.h
+    src/gui/mainmenubar.cpp
+    src/gui/mainmenubar.h
+    src/gui/mainwindow.cpp
+    src/gui/mainwindow.h
 )
 
 target_link_libraries(heurika PRIVATE Qt6::Widgets)
